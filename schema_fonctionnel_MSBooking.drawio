@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T09:04:01.197Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="HdpfSAYoecJL94qQPMSP" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T09:17:43.894Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="OfDONrE6X9qnCLJ1yRZG" version="21.3.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1379" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
         <mxCell id="oYN1SIIPOzSrqWJS0p1k-4" value="Formateurs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oYN1SIIPOzSrqWJS0p1k-5" value="Microsoft Booking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-5" value="Microsoft Booking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="350" y="630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oYN1SIIPOzSrqWJS0p1k-6" value="Disponibilités - Calendrier Outlook" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
@@ -256,6 +256,45 @@
             <mxPoint x="591" y="950" as="sourcePoint" />
             <mxPoint x="592" y="901" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-39" target="oYN1SIIPOzSrqWJS0p1k-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-39" value="GET les disponibilités de créneaux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-2" target="oYN1SIIPOzSrqWJS0p1k-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="450" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-5" target="oYN1SIIPOzSrqWJS0p1k-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="580" as="sourcePoint" />
+            <mxPoint x="220" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-42" target="oYN1SIIPOzSrqWJS0p1k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-42" value="POST Réserve un créneau" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-45" target="oYN1SIIPOzSrqWJS0p1k-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-45" value="Dendreo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oYN1SIIPOzSrqWJS0p1k-46" target="oYN1SIIPOzSrqWJS0p1k-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-46" value="Créé l&#39;action de formation et les modules" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYN1SIIPOzSrqWJS0p1k-49" value="GET formateurs from id action de formation, GET disponibilités des formateurs, POST le créneau choisi avec le formateur disponible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="215" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
